@@ -1,0 +1,13 @@
+Package: Rsentiws2
+Type: Package
+Title: R package to access sentiws2 (SentimentWortschatz)
+Version: 1.0-0
+Date: 2025-12-31
+Author: Ronald Hochreiter <ron@hochreiter.net>
+Maintainer: Ronald Hochreiter <ron@hochreiter.net>
+Description: R package to access sentiws2 (SentimentWortschatz) created by R. Remus, U. Quasthoff & G. Heyer: SentiWS - a Publicly Available German-language Resource for Sentiment Analysis. Proceedings of the 7th International Language Resources and Evaluation (LREC 2010), pp. 1168-1171, 2010. 
+Depends:
+  R (>= 4.0), dplyr, tm, pdftools
+License: MIT-0
+URL: http://www.hochreiter.xyz/
+RoxygenNote: 7.3.3
