@@ -1,8 +1,11 @@
 #' R package to access sentiws2 (SentimentWortschatz)
 #' 
+#' @references \url{https://wortschatz.uni-leipzig.de/de/download/}
 #' @references \url{http://www.hochreiter.xyz/}
 #' 
 #' @import dplyr
+#' @import tm
+#' @import pdftools
 #' 
 #' @author Ronald Hochreiter, \email{ron@@hochreiter.net}
 "_PACKAGE"
