@@ -1,7 +1,7 @@
 Package: Rsentiws2
 Type: Package
 Title: R package to access sentiws2 (SentimentWortschatz)
-Version: 1.0-0dev
+Version: 1.0-0
 Date: 2026-01-01
 Author: Ronald Hochreiter <ron@hochreiter.net>
 Maintainer: Ronald Hochreiter <ron@hochreiter.net>
