@@ -14,9 +14,12 @@
 #' @export
 #' 
 #' @examples
-#' content <- pdftools::pdf_text("sample.pdf")
+#' url <- "https://www.bmeia.gv.at/fileadmin/user_upload/Vertretungen/Astana/Visa/1918_-_2018._Die_Anfaenge_der_Republik_OEsterreich_im_internationalen_Kontext..pdf"
+#' content <- pdftools::pdf_text(url(url))
 #' words <- pdftools_to_dataframe(content)
 #' sentiment <- sentiments(words)
+#' nrow(sentiment[["positive"]])
+#' nrow(sentiment[["negative"]])
 #' 
 sentiments <- function(words) {
   sentiments.pos <- words %>% inner_join(sentiws.pos, relationship = "many-to-many")
