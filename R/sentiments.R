@@ -22,6 +22,7 @@
 #' nrow(sentiment[["negative"]])
 #' 
 sentiments <- function(words) {
+  data(sentiws2)
   sentiments.pos <- words %>% inner_join(sentiws.pos, relationship = "many-to-many")
   sentiments.neg <- words %>% inner_join(sentiws.neg, relationship = "many-to-many")
   return(list(positive = sentiments.pos, negative = sentiments.neg))
