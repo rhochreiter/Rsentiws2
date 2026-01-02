@@ -16,7 +16,7 @@
 #' @examples
 #' url <- "https://www.bmeia.gv.at/fileadmin/user_upload/Vertretungen/Astana/Visa/1918_-_2018._Die_Anfaenge_der_Republik_OEsterreich_im_internationalen_Kontext..pdf"
 #' content <- pdftools::pdf_text(url(url))
-#' words <- pdftools_to_dataframe(content)
+#' words <- wordframe_from_pdftext(content)
 #' sentiment <- sentiments(words)
 #' nrow(sentiment[["positive"]])
 #' nrow(sentiment[["negative"]])
